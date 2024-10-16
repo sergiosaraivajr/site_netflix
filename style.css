@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Stranger";
+  src: url(./src/fontes/Benguiat\ Bold.ttf);
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  list-style-type: none;
+  padding: 0;
+}
+
+.img-logo,
+.img-user {
+  height: 50px;
+  margin: 5px;
+}
+
+video {
+  width: 100vw;
+  min-height: 80vh;
+}
+
+.capa {
+  position: absolute;
+  bottom: 40%; /* a 35% da parte de baixo */
+  left: 5%;
+  width: 35%;
+  z-index: 3;
+}
+
+.titulo-capa {
+  color: white;
+  font-size: 80px;
+  font-family: "Stranger", sans-serif;
+  margin-bottom: 5px;
+}
+
+.description-capa {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.img-assistir {
+  height: 25px;
+}
+
+.link-watch {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-info {
+  color: black;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.img-carousel {
+  height: 150px;
+}
+
+#carouselControls {
+  background-color: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.titulo-carousel {
+  color: white;
+  font-size: 30px;
+}
