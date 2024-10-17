@@ -37,6 +37,7 @@ video {
 }
 
 .capa {
+  display: flexbox;
   position: absolute;
   bottom: 40%; /* a 35% da parte de baixo */
   left: 5%;
@@ -58,32 +59,45 @@ video {
   margin-bottom: 50px;
 }
 
-.img-assistir {
+.img-assistir,
+.img-info {
   height: 25px;
+  vertical-align: bottom;
 }
 
 .link-watch {
   background-color: white;
   color: black;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.759);
+  }
 }
 
 .link-info {
   color: black;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.35);
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  margin-left: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.244);
+  }
 }
 
 .img-carousel {
-  height: 150px;
+  height: 200px;
 }
 
 #carouselControls {
